@@ -1,0 +1,49 @@
+@import url("/.where-the-magic-is/fonts.css");
+@import url("/.where-the-magic-is/global.css");
+
+/* 
+Font names:
+- Allison
+- Amatic SC
+- Dosis
+- Handlee
+- Londrina Shadow
+- Open Sans
+- Playfair Display
+- Rye
+*/
+.headline {
+  color: greenyellow;
+  font-family: "Londrina Shadow";
+  background-color: #4b0082;
+  place-self: center;
+}
+
+.flipcard {
+  transform: rotateY(180deg);
+}
+
+.bee {
+  place-self: start;
+  margin-top: 100px;
+  margin-left: 50px;
+  animation: fly 3s infinite;
+}
+
+@keyframes fly {
+  50% {
+    transform: translateY(40px) rotate(180deg);
+  }
+}
+
+.back {
+  background-color: rgb(6, 66, 13);
+}
+
+.greeting {
+  color: white;
+}
+
+.familymembers {
+  color: white;
+}

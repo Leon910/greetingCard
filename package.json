@@ -1,0 +1,12 @@
+{
+  "name": "greeting-card-spring-edition",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Mareike Boßelmann",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
+}
